@@ -1,6 +1,6 @@
 package javatron;
 
-import java.awt.Dimension;//imports for seeing screen sizee
+import java.awt.Dimension;//imports for seeing screen sizeeeeeee
 import java.awt.Toolkit;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
