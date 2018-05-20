@@ -1,6 +1,6 @@
 package javatron;
 
-import java.awt.Dimension;
+import java.awt.Dimension;//imports for seeing screen size
 import java.awt.Toolkit;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
@@ -13,6 +13,7 @@ public class javaTron {
 	static JFrame frame;
 
 	static void menu() {
+		
 		frame.dispose();
 
 		frame = new JFrame();
@@ -29,6 +30,10 @@ public class javaTron {
 		});
 		frame.add(button);
 		frame.setVisible(true);
+	}
+	
+	static void menu1() {
+		
 	}
 
 	static void start() {
