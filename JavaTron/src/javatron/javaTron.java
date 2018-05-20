@@ -41,6 +41,6 @@ public class javaTron {
 	}
 
 	public static void main(String[] args) {
-
+		menu();
 	}
 }
