@@ -25,15 +25,17 @@ public class javaTron {
 		// completed
 		gameFrame.setVisible(true);
 
+
+		
 		// asks for settings in console - move into a GUI later
-		conf.name();
-		int c = conf.color();
-		while (c != 1 && c != 2 && c != 3) {
-			System.out.println("That is not a valid color! Please try again.");
-			c = conf.color();
-		}
-		Color color = conf.checkColor(c);
-		System.out.println(color);
+				conf.name();
+				int c = conf.color();
+				while (c != 1 && c != 2 && c != 3) {
+					System.out.println("That is not a valid color! Please try again.");
+					c = conf.color();
+				}
+				Color color = conf.checkColor(c);
+				System.out.println(color);
 		
 		
 

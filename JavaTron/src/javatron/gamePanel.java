@@ -1,5 +1,6 @@
 package javatron;
 
+import java.awt.Color;
 import java.awt.Graphics;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
@@ -16,7 +17,10 @@ public class gamePanel extends JPanel {
 		t.start();
 	}
 	public void paintComponent(Graphics g) {
-		g.drawRect(location[0], location[1], location[2], location[3]);
+
+				
+		//g.setColor(color);
+		g.fillRect(location[0], location[1], location[2], location[3]);
 	}
 	private class Listener implements ActionListener
 	{
