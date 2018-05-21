@@ -16,10 +16,8 @@ public class gamePanel extends JPanel {
 		Timer t = new Timer(10, (ActionListener) new Listener());
 		t.start();
 	}
-	public void paintComponent(Graphics g) {
-
-				
-		//g.setColor(color);
+	public void paintComponent(Graphics g, Color col) {
+		g.setColor(col);
 		g.fillRect(location[0], location[1], location[2], location[3]);
 	}
 	private class Listener implements ActionListener

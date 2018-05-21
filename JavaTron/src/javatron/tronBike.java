@@ -15,9 +15,9 @@ public class tronBike {
 	boolean isAlive;
 	int direction;
 
-	public void tronBike(String name, Color color, int[] location, int direction) {
-		
-		
+	public void tronBike(Color col, Graphics g, int[] location) {
+		g.setColor(col);
+		g.fillRect(location[0], location[1], location[2], location[3]);
 	}
 
 }

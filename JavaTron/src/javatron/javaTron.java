@@ -14,18 +14,6 @@ public class javaTron {
 		// initiates
 		commandConfigure conf = new commandConfigure();
 		tronBike player1 = new tronBike();
-
-		Dimension dim = Toolkit.getDefaultToolkit().getScreenSize(); // gets the size of screen
-		JFrame gameFrame = new JFrame("JavaTron");
-		gameFrame.setSize(640, 480);
-		gameFrame.setLocation(dim.width / 3, dim.height / 3 - 40); // 40 to represent windows taskbar size
-		gameFrame.setDefaultCloseOperation(3);
-		gameFrame.setAlwaysOnTop(true);
-		gameFrame.setContentPane(new gamePanel()); //uncomment when gamePanel is
-		// completed
-		gameFrame.setVisible(true);
-
-
 		
 		// asks for settings in console - move into a GUI later
 				conf.name();
@@ -37,7 +25,16 @@ public class javaTron {
 				Color color = conf.checkColor(c);
 				System.out.println(color);
 		
-		
+		//JPanel
+				Dimension dim = Toolkit.getDefaultToolkit().getScreenSize(); // gets the size of screen
+				JFrame gameFrame = new JFrame("JavaTron");
+				gameFrame.setSize(640, 480);
+				gameFrame.setLocation(dim.width / 3, dim.height / 3 - 40); // 40 to represent windows taskbar size
+				gameFrame.setDefaultCloseOperation(3);
+				gameFrame.setAlwaysOnTop(true);
+				gameFrame.setContentPane(new gamePanel()); //uncomment when gamePanel is
+				// completed
+				gameFrame.setVisible(true);
 
 	}
 
