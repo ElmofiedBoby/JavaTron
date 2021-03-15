@@ -1,7 +1,10 @@
 # JavaTron
 A Java based top-down game based on the light bike fight scenes in the Tron movies.
 <br>
+This was created for my final project for AP Computer Science in 2019.
+<br>
 WASD Controls for Player 1, Arrows for Player 2.
+<br>
 Red, Green, and Blue are choices for colors.
 <br>
 Sounds: Menu, Bikes Crashing, and Background duing the game.
